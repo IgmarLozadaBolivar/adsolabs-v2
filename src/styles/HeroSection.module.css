@@ -1,0 +1,63 @@
+@import url(/src/styles/Fonts.module.css);
+
+.headingTitle, .icons img {
+    user-select: none;
+}
+
+.container {
+    padding-top: 4em;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.heading {
+    position: relative;
+    z-index: 10;
+    gap: 20em;
+}
+
+.headingLaunching h6 {
+    font-family: 'Geist', sans-serif;
+    font-weight: 400;
+    font-size: 1.4rem;
+    margin: 0;
+    color: #898A8C;
+}
+
+.headingTitle {
+    display: flex;
+    justify-content: center;
+    font-size: 4rem;
+}
+
+.headingTitle h1 {
+    font-family: 'Bricolage Grotesque', sans-serif;
+    padding: 0 0.5rem;
+    margin: 0;
+    background: linear-gradient(180deg, #FFFFFF, #626262);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    letter-spacing: -6px;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+    height: 500px;
+    object-fit: contain;
+    z-index: 0;
+}
+
+.icons img {
+    pointer-events: none;
+}
+
+.jsLeftIcon {
+    cursor: none;
+    filter: drop-shadow(0 0 2em #FFF142);
+}
+
+.vsCodeRightIcon {
+    filter: drop-shadow(0 0 2em #3FAAFD);
+}

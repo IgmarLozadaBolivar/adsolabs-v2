@@ -1,0 +1,41 @@
+/*.auroraWrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+    pointer-events: none;
+}*/
+
+.header {
+    z-index: 10;
+    position: relative;
+    width: 100%;
+    height: 4vh;
+    padding-top: 2.4em;
+    padding-bottom: 2.4em;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /*background: rgba(40, 40, 40, 0.8);*/
+    /*border-bottom: solid 1px rgb(247, 247, 247);*/
+    /*border-radius: 0 0 20px 20px;*/
+}
+
+/*.auroraHeader {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50%;
+    z-index: -1;
+}*/
+
+.logo img {
+    width: 7em;
+}
+
+.aurora {
+    position: absolute;
+}

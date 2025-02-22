@@ -1,0 +1,18 @@
+@import url(src/styles/Fonts.module.css);
+
+.anchor {
+    font-family: 'Geist', sans-serif;
+    font-size: 18px;
+    border-radius: 13px;
+    padding: 10px 14px;
+    color: #fff;
+    transition: background-color 0.8s ease 0s;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.anchor:hover {
+    background: #fff;
+    border-radius: 13px;
+    color: #000;
+}

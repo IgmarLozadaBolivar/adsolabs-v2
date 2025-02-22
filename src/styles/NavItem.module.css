@@ -1,0 +1,11 @@
+.navItems {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+}
+
+.navItems li {
+    margin: 8px;
+}

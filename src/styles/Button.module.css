@@ -1,0 +1,39 @@
+@import url(src/styles/Fonts.module.css);
+
+.button {
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.toCampusButton {
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-size: 20px;
+    background: #fff;
+    height: 55px;
+    width: 150px;
+    border: solid 2px #1c2226;
+    border-radius: 10px 50px 50px;
+    box-shadow: 1px 6px 0 0 #f7f7f7;
+    position: relative;
+    transition: 0.2s;
+    color: #1c2226;
+    padding: 10px 14px;
+}
+
+.toCampusButton:hover {
+    background: #f7f7f7;
+    border: solid 2px #1c2226;
+    transform: translateY(3px);;
+    box-shadow: 1px 4px 0 0 #f7f7f7;
+}
+
+.toRegisterAccessToCampusButton {
+    border-radius: 82px;
+    background: #CAFF33;
+    color: #1c1c1c;
+}
+
+.toRegisterAccessToCampusButton:hover {
+    background: rgba(172, 255, 100, 0.67);
+}
