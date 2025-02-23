@@ -1,6 +1,6 @@
 import Heading from '@components/Heading';
-import JSLeft from '@assets/Left.svg';
-import VSCodeRight from '@assets/Right.svg';
+import JSLeft from '@assets/js-left.svg';
+import VSCodeRight from '@assets/vscode-right.svg';
 import styles from "@styles/HeroSection.module.css";
 import { motion } from "framer-motion";
 
